@@ -1,0 +1,12 @@
+---
+- hosts: kube
+  become: true
+
+  roles:
+    - role.security
+    - role.swap
+    - role.docker
+    - role.kubernetes
+
+  vars_files:
+    - vars/main.yml

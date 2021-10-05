@@ -1,0 +1,6 @@
+---
+roles:
+  - name: role.security
+  - name: role.swap
+  - name: role.docker
+  - name: role.kubernetes
